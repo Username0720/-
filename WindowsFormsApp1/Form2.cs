@@ -27,7 +27,8 @@ namespace WindowsFormsApp1
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Show(new Form3());
+            DialogResult = DialogResult.Cancel;
+            this.Close();
         }
 
 
