@@ -23,11 +23,14 @@ namespace WindowsFormsApp1
             if(textBox1.Text == "admin" || textBox2.Text == "1234")
             {
                 f2.Show();
+                
             }
             else
             {
                 MessageBox.Show("Неправильно введены логин и/или пароль");
             }
+            DialogResult = DialogResult.Cancel;
+            this.Close();
         }
 
         private void Button2_Click(object sender, EventArgs e)
