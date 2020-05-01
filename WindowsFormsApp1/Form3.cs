@@ -33,5 +33,10 @@ namespace WindowsFormsApp1
             DialogResult = DialogResult.Cancel;
             this.Close();
         }
+
+        private void FileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
