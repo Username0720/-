@@ -31,7 +31,8 @@ namespace kontr_2
         {
             string name = textBox1.Text;
             string email = textBox2.Text;
-            CheckEmail check = new CheckEmail(name, email);
+            string email1 = textBox3.Text;
+            CheckEmail check = new CheckEmail(name, email, email1);
             if (check.Check() == false)
                 button1.Visible = true;
         }
